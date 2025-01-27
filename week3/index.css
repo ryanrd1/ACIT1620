@@ -1,0 +1,18 @@
+ul.orange> li{
+    color:orange;
+}
+
+ul ul > li {
+    color: black; /* Direct children of nested lists */
+}
+h1+p {
+    color:teal;
+}
+
+input[type="text"] {
+    border:5px solid red;
+}
+
+a:hover {
+   color:red;
+}

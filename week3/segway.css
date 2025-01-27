@@ -1,0 +1,30 @@
+body{ 
+    font-size: medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height:1.2em;
+}
+
+#date1{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgb(83, 141, 192);
+    padding:25px;
+    padding-left:80px;
+    margin: 30px;
+    background-repeat:no-repeat;
+    background-position: top left;
+    border-style:dashed;
+    border-width: thick;
+    
+}
+ h2 {
+    color: turquoise;
+    font-size: 135%
+}
+
+
+h1{
+    font-size:150%
+}
+
