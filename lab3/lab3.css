@@ -1,0 +1,44 @@
+header {background-color:rgba(0, 0, 0, 0.728);
+        padding: 20px;
+        text-align: center;
+        border-radius: 20px;
+
+}
+
+body {
+    background-color: rgba(207, 203, 203, 0.897);
+    padding: 0px;
+}
+
+
+
+#name {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+}
+
+
+#aboutme {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+footer {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.728);
+    margin:0px;
+    text-align: center;
+    padding: 1px;
+    margin-top: 40px;
+ }
