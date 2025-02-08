@@ -1,0 +1,61 @@
+body {
+  font-size:           small;
+  font-family:         Verdana, Helvetica, Arial, sans-serif;
+  line-height:         1.6em;
+}
+
+h1, h2 {
+  color:               #007e7e;
+}
+
+h1 {
+  font-size:           150%;
+}
+
+h2 {
+  font-size:           130%;
+}
+
+
+
+#elixirs {
+  border-width:thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width:200px;
+
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left:20px;
+  text-align: center;
+  background-image: url(cocktail.gif);
+  background-repeat: repeat-x;
+}
+
+#elixirs h2{
+  color: black;
+
+}
+
+#elixirs h3{
+  color:red;
+
+}
+
+.artist{
+  font-weight: bold;
+}
+
+#elixirs a:link {
+  color:rgb(255, 0, 93);
+
+}
+
+#elixirs a:visited{
+  color: rgb(43, 226, 67);
+}
+
+a:hover{
+  color:yellow;
+}
