@@ -42,3 +42,18 @@ footer {
     padding: 1px;
     margin-top: 40px;
  }
+
+ .projects ul {
+    list-style-type:none;
+    padding: 1px;
+    
+ }
+
+ .projects li {
+    margin: 10px 0px;
+    padding: 10px;
+    border: 2px solid; 
+    border-color:green;
+    border-radius: 5px;
+
+}
