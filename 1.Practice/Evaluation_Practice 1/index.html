@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .page-container {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+
+        
+    }
+    header, footer {
+        background-color: #006d66;
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+    }
+    .content {
+        display: flex;
+        flex: 1;
+        padding: 20px;
+    }
+    aside {
+        width: 15%;
+        padding: 20px;
+        background-color: #f0f0f0;
+    }
+    aside nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    aside nav ul li {
+        margin: 10px 0;
+    }
+    aside nav ul li a {
+        text-decoration: none;
+        color: #006d66;
+        font-weight: bold;
+    }
+    main {
+        flex: 1;
+        padding: 0 20px;
+    }
+    .img {
+        width: 200px;
+        float: left;
+        margin-right: 15px;
+    }
+    footer {
+        text-align: center;
+        font-size: 14px;
+        margin-top: auto;
+    }
+
+
+</style>
+</head>
+<body>
+    
+    <div class="page-container">
+        <header>
+            <h1>My Awesome Website</h1>
+            <p>Tagline</p>
+        </header>
+        <div>
+            <aside>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </aside>
+            <main>
+                <img src="lorem.jpg" alt="lorem ipsum"  class="img" />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error quod voluptatum, excepturi, officiis ipsa aspernatur magnam, earum quos iure dicta ipsam minus. Amet exercitationem possimus, magnam consequuntur nisi ut quod.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque numquam placeat nulla cumque impedit animi ducimus incidunt, culpa itaque repudiandae quidem velit sit accusamus? Veritatis voluptates asperiores voluptate. Possimus, aliquam!</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et in eaque dolore accusamus expedita inventore voluptates explicabo asperiores ipsam quia minus recusandae consequuntur corporis nisi numquam aliquam neque, ab eveniet?</p>
+            </main>
+        </div>
+        <footer>
+            <p>&copy; Your_name_here 2024. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
