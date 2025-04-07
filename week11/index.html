@@ -15,25 +15,40 @@
 
     window.onload = init;
 function init() {
-    let image = document.getElementById("zero");
-    image.onclick = showAnswer;
+    let image0 = document.getElementById("zero");
+    image0.onclick = showImageZero;
+
+    let image1 = document.getElementByID("one"); //unblurs when clicked on
+    image1.onclick= showImageOne
+
+//     let image2 = document.getElementByID("two"); //unblurs when clicked on
+    // image2.oneclick= showImageTwo
+}
+
+function init(){
+    let
 }
 
 
 
-    function showAnswer(){
+
+    function showImageZero(){
         let image = document.getElementById("zero");
         image.src="zero.jpg";
+    }
+    function showImageOne(){
+        let image = document.getElementById("one");
+        image.src="one.jpg";
     }
 </script>
 
 <body>
     <img id="zero" src="zeroblur.jpg">
-<img id="one" src="oneblur.jpg">
-<img id="two" src="twoblur.jpg">
-<img id="three" src="threeblur.jpg">
-<img id="four" src="fourblur.jpg">
-<img id="five" src="fiveblur.jpg">
+    <img id="one" src="oneblur.jpg">
+    <img id="two" src="twoblur.jpg">
+    <img id="three" src="threeblur.jpg">
+    <img id="four" src="fourblur.jpg">
+    <img id="five" src="fiveblur.jpg">
 
 </body>
 </html>

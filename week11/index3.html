@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2> crating an object form a Json string
+    </h2>
+    <p id ="convert"></p>
+    <script>
+        const person ='{"name":"bob", "age":20, "city": "Toronto"}';
+        const obj=JSON.pase(person);
+        document.getElementById("convet").innerHTML=obj.name
+    </script>
+</body>
+</html>
